@@ -1,4 +1,4 @@
-baseurl = "https://doobee.netlify.app/"
+baseurl = "https://blog.saascatch.com/"
 title = "Creative portfolio"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
