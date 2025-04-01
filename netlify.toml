@@ -5,7 +5,12 @@
 [context.production.environment]
   HUGO_VERSION = "0.128.0"
 
+#[[redirects]]
+#  from = "/admin"
+#  to = "/admin/index.html"
+#  status = 200
 [[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-  status = 200
+  from = "/#invite_token=:invite_token"
+  to = "/admin/#invite_token=:invite_token"
+  status = 301
+  force = true
